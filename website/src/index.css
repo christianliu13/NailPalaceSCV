@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Work+Sans:300');
+
+html {
+  display: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(http://placekitten.com/800/800);
+  background-size: cover;
+  z-index: -2;
+}
+
+header {
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+  color: white;
+}
+
+main, section {
+  background-color: white;
+  opacity: .8;
+  padding: 2%;
+  margin-top: 15px;
+}
+
+section p {
+  color: #236188;
+}
+
+#hero {
+  color: #397093;
+  padding: 2%;
+  width:50%;
+  margin: 2px 30px;
+  background-color: white;
+}
+
+#hero-background {
+  background-image: url("http://placekitten.com/940/540");
+  background-size: cover;
+  width: 98%;
+  height: 577px;
+  margin: 1%;
+  opacity: 1 !important;
+}
+
+#hero button {
+  margin-top: 50px;
+}
+
+.nav {
+  background-color: #236188;
+  height: 37px;
+}
+
+
+a {
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: #8bbddd;
+  color: black;
+}
+
+footer {
+  background-color: #236188;
+  text-align: left;
+  color: white;
+  padding: 1%;
+  height: 48px;
+}
+
+button {
+  background-color: #236188;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1,
+h2 {
+  font-family: 'Josefin Slab', serif;
+}
+
+h2 {
+  color: #A98200;
+
+  margin-bottom: 28px;
+}
+
+
+h6 {
+  font-size: 12px;
+}
+
+p,
+h4,
+h5,
+h6 {
+  line-height: 1.4em;
+  font-family: 'Work Sans', sans-serif;
+}
