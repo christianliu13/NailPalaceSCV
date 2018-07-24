@@ -18,7 +18,8 @@ header {
   color: white;
 }
 
-main, section {
+main,
+section {
   background-color: white;
   opacity: .8;
   padding: 2%;
@@ -32,7 +33,7 @@ section p {
 #hero {
   color: #397093;
   padding: 2%;
-  width:50%;
+  width: 50%;
   margin: 2px 30px;
   background-color: white;
 }
@@ -50,19 +51,55 @@ section p {
   margin-top: 50px;
 }
 
-.nav {
-  background-color: #236188;
-  height: 37px;
+nav {
+  z-index: 1;
 }
 
+.navbar {
+  background-color: #236188;
+  height: 37px;
+  text-align: center;
+  justify-content: center;
+  padding:0;
+}
 
-a {
-  color: white;
+.navbar-nav{
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+.navs{
+  padding:0;
 }
 
 .nav-item:hover {
   background-color: #8bbddd;
   color: black;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  margin-top: 3px;
+  background-color: #8bbddd;
+  padding: 8px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  width:100%;
+}
+.dropdown-item{
+width:100%;
+padding: 0;
+}
+
+.dropdown-item:hover{
+  background-color: #8bbddd;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
 }
 
 footer {
@@ -80,6 +117,16 @@ button {
   padding: 5px 35px;
 }
 
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+a{
+  color: white !important;
+}
+
 p {
   font-size: 15px;
 }
@@ -91,8 +138,7 @@ h2 {
 
 h2 {
   color: #A98200;
-
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 
