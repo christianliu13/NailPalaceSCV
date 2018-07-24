@@ -1,18 +1,15 @@
 import React from 'react';
+import ServiceData from './ServiceData';
 
 const ServiceList = (props) => {
-  console.log(props.services.length);
-
-      for (var i = 0; i < props.services.length; i++) {
-    	<div>
-          <h4>{props.services[i].title} {props.services[i].price}</h4>
-          <p>{props.services[i].desc}</p>
-          {console.log("test")}
-          </div>
+   
   return (
-
-    }
-  )
+  	<div>
+  	{props.services.map((props)=> {
+  		return <ServiceData service={props}/>
+  	})}
+  	</div>
+  	);
 }
 
 export default ServiceList;
