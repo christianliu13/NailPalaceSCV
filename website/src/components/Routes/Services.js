@@ -1,7 +1,5 @@
 import React from 'react';
-import ServiceList from '../../components/ServiceList';
-import ServiceCat from '../../components/ServiceCat';
-import ServiceImg from '../../components/ServiceImg';
+import ServiceSection from '../../components/ServiceSection';
 import Pic from '../../components/Images/cat.jpeg';
 
 
@@ -53,7 +51,61 @@ class Services extends React.Component {
             desc: "Toes are soaked, shaped, and buffed. Lotion is applied and toes polished."
           }
         ]
+      },
+       nailEnhancements: {
+        category: "Nail Enhancements",
+        priceHeading1: "Full Set",
+        priceHeading2: "Fill",
+        img: Pic,
+        services: [{
+            title: "Acrylic",
+            price1: "$28",
+            price2: "$21"
+          },
+          {
+            title: "French",
+            price1: "$33",
+            price2: "$23"
+          },
+          {
+            title: "Glitter French",
+            price1: "$35",
+            price2: "$23"
+          },
+          {
+            title: "Pink & White",
+            price1: "$35",
+            price2: "$23"
+          },
+          {
+            title: "Design Tips",
+            price1: "$45",
+            price2: "$23"
+          },
+          {
+            title: "Color Acrylic",
+            price1: "$45",
+            price2: "$23"
+          },
+          {
+            title: "Acrylic",
+            price1: "$45",
+            price2: "$23"
+          },
+          {
+            title: "Back Fill \"Pink & White\"",
+            price1: null,
+            price2: "$28"
+          },
+          {
+            title: "(Prices for artificial nail services may vary)",
+            price1: null,
+            price2: null
+          },
+        ]
       }
+
+
     }
   }
 
@@ -62,15 +114,8 @@ class Services extends React.Component {
   render() {
     return (
       <section>
-    		<div className ="row">
-  				<div className ="col-md-8">
-  					<ServiceCat cat={this.state.naturalNailCare.category}/>
-						<ServiceList services={this.state.naturalNailCare.services}/>
-					</div>
-					<div className ="col-md-4">
-						<ServiceImg pic={this.state.naturalNailCare.img}/>
-					</div>
- 				</div>
+    		<ServiceSection service={this.state.naturalNailCare}/>
+        <ServiceSection service={this.state.pedicure}/>
       </section>
     );
   }
