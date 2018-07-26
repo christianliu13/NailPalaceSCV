@@ -5,10 +5,10 @@ import ServiceImg from './ServiceImg';
 
 export default function ServiceSection(props) {
 	return(
-		<div className ="row">
+		<div className ="serviceRow row">
   				<div className ="col-md-8">
   					<ServiceCat cat={props.service.category}/>
-						<ServiceList services={props.service.services}/>
+						<ServiceList service={props.service}/>
 					</div>
 					<div className ="col-md-4">
 						<ServiceImg pic={props.service.img}/>

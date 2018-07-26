@@ -2,13 +2,11 @@ import React from 'react';
 
 function ServiceTable(props){
 	return(
-	    	<div>
 	        <tr>
-	        	<td>{props.service.title}</td>
-	        	<td>{props.service.price1}</td>
-	        	<td>{props.service.price2}</td>
+	        	<td className="serviceTitle">{props.servicess.title}</td>
+	        	<td>{props.servicess.price1}</td>
+	        	<td>{props.servicess.price2}</td>
 	        </tr>
-        </div>
 	);
 }
 

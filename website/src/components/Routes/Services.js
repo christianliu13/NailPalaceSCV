@@ -53,6 +53,7 @@ class Services extends React.Component {
         ]
       },
        nailEnhancements: {
+        isTable: true,
         category: "Nail Enhancements",
         priceHeading1: "Full Set",
         priceHeading2: "Fill",
@@ -103,9 +104,308 @@ class Services extends React.Component {
             price2: null
           },
         ]
+      },
+      AdditionalServices: {
+        isTable: true,
+        category: "Additional Services",
+        priceHeading1: null,
+        priceHeading2: null,
+        img: Pic,
+        services: [{
+            title: "Gel Color With Manicure",
+            price1: null,
+            price2: "$21"
+          },
+          {
+            title: "Gel Color Without Manicure",
+            price1: null,
+            price2: "$23"
+          },
+          {
+            title: "Gel Color French Manicure",
+            price1: null,
+            price2: "$23"
+          },
+          {
+            title: "Gel Topcoat",
+            price1: null,
+            price2: "$23"
+          },
+          {
+            title: "Gel Removal",
+            price1: null,
+            price2: "$23"
+          }
+        ]
+      },
+      GelColor: {
+        isTable: true,
+        category: "Gel Color",
+        priceHeading1: null,
+        priceHeading2: null,
+        img: Pic,
+        services: [{
+            title: "Nail Repair",
+            price1: null,
+            price2: "$3"
+          },
+          {
+            title: "French Polish",
+            price1: null,
+            price2: "$5"
+          },
+          {
+            title: "French Polish Change",
+            price1: null,
+            price2: "$10"
+          },
+          {
+            title: "Acrylic Nail Removal",
+            price1: null,
+            price2: "$7"
+          },
+          {
+            title: "Callous Removal",
+            price1: null,
+            price2: "$7"
+          },
+          {
+            title: "Nail Design",
+            price1: null,
+            price2: "$3 up"
+          },
+          {
+            title: "Polish Change (hands)",
+            price1: null,
+            price2: "$5 up"
+          },
+          {
+            title: "Polish Change (toes)",
+            price1: null,
+            price2: "$8 up"
+          },
+          {
+            title: "Paraffin Wax (hands)",
+            price1: null,
+            price2: "$8"
+          },
+          {
+            title: "Paraffin Wax (feet)",
+            price1: null,
+            price2: "$10"
+          },
+          {
+            title: "(Prices for artificial nail services may vary)",
+            price1: null,
+            price2: null
+          }
+        ]
+      },
+      Waxing: {
+        isTable: true,
+        category: "Waxing",
+        priceHeading1: null,
+        priceHeading2: null,
+        img: Pic,
+        services: [{
+            title: "Eye Brows",
+            price1: null,
+            price2: "$15"
+          },
+          {
+            title: "Lip",
+            price1: null,
+            price2: "$10"
+          },
+          {
+            title: "Chin",
+            price1: null,
+            price2: "$15"
+          },
+          {
+            title: "Full Leg",
+            price1: null,
+            price2: "$55"
+          },
+          {
+            title: "Half Leg",
+            price1: null,
+            price2: "$35"
+          },
+          {
+            title: "Full Arm",
+            price1: null,
+            price2: "$40 up"
+          },
+          {
+            title: "Half Arm",
+            price1: null,
+            price2: "$28 up"
+          },
+          {
+            title: "Full Face",
+            price1: null,
+            price2: "$45"
+          },
+          {
+            title: "Under Arm",
+            price1: null,
+            price2: "$15"
+          },
+          {
+            title: "Bikini",
+            price1: null,
+            price2: "$30 up"
+          },
+          {
+            title: "Back",
+            price1: null,
+            price2: "$35 up"
+          }
+        ]
+      },
+      Waxing: {
+        isTable: true,
+        category: "Waxing",
+        priceHeading1: null,
+        priceHeading2: null,
+        img: Pic,
+        services: [{
+            title: "Eye Brows",
+            price1: null,
+            price2: "$15"
+          },
+          {
+            title: "Lip",
+            price1: null,
+            price2: "$10"
+          },
+          {
+            title: "Chin",
+            price1: null,
+            price2: "$15"
+          },
+          {
+            title: "Full Leg",
+            price1: null,
+            price2: "$55"
+          },
+          {
+            title: "Half Leg",
+            price1: null,
+            price2: "$35"
+          },
+          {
+            title: "Full Arm",
+            price1: null,
+            price2: "$40 up"
+          },
+          {
+            title: "Half Arm",
+            price1: null,
+            price2: "$28 up"
+          },
+          {
+            title: "Full Face",
+            price1: null,
+            price2: "$45"
+          },
+          {
+            title: "Under Arm",
+            price1: null,
+            price2: "$15"
+          },
+          {
+            title: "Bikini",
+            price1: null,
+            price2: "$30 up"
+          },
+          {
+            title: "Back",
+            price1: null,
+            price2: "$35 up"
+          }
+        ]
+      },
+      skinCare: {
+        isTable: false,
+        category: "Skin Care",
+        priceHeading1: null,
+        priceHeading2: null,
+        img: Pic,
+        services: [{
+            title: "Basic European Facial",
+            price: "$50",
+            desc: "Enjoy a cleansing and complementary skin analysis, followed by blackhead removal, light exfoliation, massage, mask & moisture."
+          }
+        ]
+      },
+      eyeWork: {
+        isTable: true,
+        category: "Eye Work",
+        priceHeading1: null,
+        priceHeading2: null,
+        img: Pic,
+        services: [{
+            title: "Eyebrows Tinted",
+            price1: null,
+            price2: "$20"
+          },
+          {
+            title: "Eyelashes Tinted",
+            price1: null,
+            price2: "$20"
+          },
+          {
+            title: "Eyelashes Tinted Bottom",
+            price1: null,
+            price2: "$20"
+          },
+          {
+            title: "Eyelashes Tinted Top & Bottom",
+            price1: null,
+            price2: "$30"
+          }
+        ]
+      },
+      permanentMakeup: {
+        isTable: true,
+        category: "Permanent Makeup",
+        priceHeading1: null,
+        priceHeading2: null,
+        img: Pic,
+        services: [{
+            title: "Eyebrows",
+            price1: null,
+            price2: "$250"
+          },
+          {
+            title: "Eyebrows Hairstroke",
+            price1: null,
+            price2: "$350"
+          },
+          {
+            title: "Eyeliner Bottom",
+            price1: null,
+            price2: "$200"
+          },
+          {
+            title: "Eyeliner Top",
+            price1: null,
+            price2: "$200"
+          },
+          {
+            title: "Full Lip",
+            price1: null,
+            price2: "$350"
+          },
+          {
+            title: "Lip Liner",
+            price1: null,
+            price2: "$200"
+          }
+        ]
       }
-
-
     }
   }
 
@@ -116,6 +416,13 @@ class Services extends React.Component {
       <section>
     		<ServiceSection service={this.state.naturalNailCare}/>
         <ServiceSection service={this.state.pedicure}/>
+        <ServiceSection service={this.state.nailEnhancements}/>
+        <ServiceSection service={this.state.GelColor}/>
+        <ServiceSection service={this.state.AdditionalServices}/>
+        <ServiceSection service={this.state.Waxing}/>
+        <ServiceSection service={this.state.skinCare}/>
+        <ServiceSection service={this.state.eyeWork}/>
+        <ServiceSection service={this.state.permanentMakeup}/>
       </section>
     );
   }

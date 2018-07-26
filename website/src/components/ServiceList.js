@@ -2,31 +2,37 @@ import React from 'react';
 import ServiceData from './ServiceData';
 import ServiceTable from './ServiceTable';
 
-const ServiceList = (props) => {
-	
-	if(props.isTable) { //if data structure is table return table
-			return 
-			<div>
-				<thead>
-					<tr>
-						<th scope="col"></th>
-						<th scope="col">Full Set</th>
-						<th scope="col">Fill</th>
-					</tr>
-				</thead>
-				<tbody>
-						{props.services.map((props)=> {
-			  			return 
-			  			<ServiceTable service={props}/>;
-			  		})}
-				</tbody>
-			} 
-			{
-		  	<div>
-			  	{props.services.map((props)=> {
-			  		return <ServiceData service={props}/>;
-			  	})}
-		  	</div>
+const ServiceList =(props)=>  {
+
+	const isTable = props.service.isTable;
+
+      if (isTable ===true ) { //if data structure is table return table
+        return (
+           <div>
+	           <table className ="table table-sm">
+								<thead>
+									<tr>
+										<th scope="col"></th>
+										<th scope="col">{props.service.priceHeading1}</th>
+										<th scope="col">{props.service.priceHeading2}</th>
+									</tr>
+								</thead>
+								<tbody>
+										{props.service.services.map((props)=> {
+							  			return <ServiceTable servicess={props}/>;
+							  		})}
+								</tbody>
+							</table>
+					</div>
+				);
+			} else {
+					return (
+				  	<div>
+					  	{props.service.services.map((props)=> {
+					  		return <ServiceData servicess={props}/>;
+					  	})}
+				  	</div>
+		  	);
   		}	
 }
 

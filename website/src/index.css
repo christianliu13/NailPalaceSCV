@@ -26,10 +26,6 @@ section {
   margin-top: 15px;
 }
 
-section p {
-  color: #236188;
-}
-
 #hero {
   color: #397093;
   padding: 2%;
@@ -73,16 +69,17 @@ nav {
   padding:0;
 }
 
-.nav-item:hover {
+.nav-item:hover, .dropdown-menu:hover {
   background-color: #8bbddd;
   color: black;
+  transition: .3s ease-in-out;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
   margin-top: 3px;
-  background-color: #8bbddd;
+  background-color: #236188;
   padding: 8px;
   border: 0;
   border-radius: 0;
@@ -94,12 +91,38 @@ width:100%;
 padding: 0;
 }
 
-.dropdown-item:hover{
-  background-color: #8bbddd;
-}
-
 .dropdown:hover>.dropdown-menu {
   display: block;
+}
+
+/* Service Page */
+.serviceTitle {
+  font-weight: bold;
+}
+
+.table th{
+  border:none;
+}
+
+.table thead th{
+  font-size: 10px;
+  color: #A98200;
+  text-decoration: underline;
+  font-family: 'Josefin Slab', serif;
+  border:none;
+}
+
+.serviceRow{
+  margin-bottom: 20px;
+}
+.serviceImage {
+  height: auto;
+  width: auto;
+  margin:1%;
+}
+
+#contactBtn {
+  float:right;
 }
 
 footer {
@@ -127,8 +150,9 @@ a{
   color: white !important;
 }
 
-p {
+p, td {
   font-size: 15px;
+  color: #236188;
 }
 
 h1,
