@@ -10,7 +10,7 @@ export default class Nav extends React.Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav nav-fill">
-            <div className="row container-fluid">
+            <div id="nav-spacing" className="row container-fluid">
               <div className="col-3 navs">
                 <Link to="/Home"><a className="nav-item nav-link" href="#">Home</a></Link>
               </div>

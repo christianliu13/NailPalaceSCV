@@ -1,4 +1,5 @@
 import React from 'react';
+import GMap from '../../components/GMap';
 
 function Contact() {
   return(
@@ -6,6 +7,7 @@ function Contact() {
       <div className="row">
         <div className="col-md-7">
           <h2>Contact Nail Palace</h2>
+
           <div className="row">
             <div className="col-md-6 col-sm-12">
               <h4>Visit Us</h4>
@@ -31,6 +33,9 @@ function Contact() {
             <button id="contactBtn">Send</button>
           </form>
 
+        </div>
+        <div className ="col-md-5">
+          <GMap />
         </div>
       </div>
     </section>    

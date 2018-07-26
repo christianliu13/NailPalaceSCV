@@ -3,8 +3,8 @@ import React from 'react';
 const Header = () => (
 	<div>
 		<header>
-			<h1>Cat Palace</h1>
-			<h5> Great Fast Professional Service</h5>
+			<h1>Nail Palace</h1>
+			<h4>Great Fast Professional Service</h4>
 		</header>
 	</div>
 );

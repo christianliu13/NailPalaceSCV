@@ -12,40 +12,112 @@ body {
   z-index: -2;
 }
 
+
+
+header h1 {
+  font-size: 50px;
+}
+
+main,
+section {
+  background-color: #ffffffe3;
+  padding: 2% 3%;
+  margin-top: 15px;
+}
+
+/*home page*/
+#hero {
+  color: #397093;
+  background-color: #ffffffe3;
+}
+
+#hero h1 {
+  line-height: 1em;
+}
+
+#hero-coupon {
+  background-color: #ffffffe3;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: #A98200;
+}
+
+
+#hero-coupon h4 {
+  font-size: 25px;
+  font-family: 'Josefin Slab', serif !important;
+}
+
+
+#hero-background {
+  background-image: url("http://placekitten.com/940/540");
+  background-size: cover;
+  width: 100%;
+  height: 577px;
+}
+
+#hero button {
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 5px 33px;
+}
+
+@media (min-width: 320px) {
+ header {
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+  color: white;
+}
+
+header h1{
+  font-size:40px;
+}
+}
+
+@media (min-width: 768px) {
+ 
+}
+
+@media (min-width: 1024px) {
+  #hero{
+ padding: 3% 2%;
+  width: 90%;
+  margin: 3%;
+}
+
+#hero-coupon{
+  width: 50px;
+  padding: 20px;
+  height: 170px;
+  position: relative;
+  top: 130px;
+}
+
+#hero-coupon h1 {
+  font-size: 70px;
+  margin-bottom: -5px;
+}
+
+#hero-coupon h4 {
+  font-size: 25px;
+}
+
+#hero-coupon sup {
+  font-size: 30px;
+  vertical-align: super;
+}
+
 header {
   text-align: center;
   margin: 30px 0px 30px 0px;
   color: white;
 }
 
-main,
-section {
-  background-color: white;
-  opacity: .8;
-  padding: 2%;
-  margin-top: 15px;
 }
 
-#hero {
-  color: #397093;
-  padding: 2%;
-  width: 50%;
-  margin: 2px 30px;
-  background-color: white;
-}
 
-#hero-background {
-  background-image: url("http://placekitten.com/940/540");
-  background-size: cover;
-  width: 98%;
-  height: 577px;
-  margin: 1%;
-  opacity: 1 !important;
-}
 
-#hero button {
-  margin-top: 50px;
-}
+/*navbar*/
 
 nav {
   z-index: 1;
@@ -56,27 +128,29 @@ nav {
   height: 37px;
   text-align: center;
   justify-content: center;
-  padding:0;
+  padding: 0;
 }
 
-.navbar-nav{
-  width:100%;
-  padding:0;
-  margin:0;
+.navbar-expand-lg {
+  justify-content: left;
 }
 
-.navs{
-  padding:0;
+.navs {
+  padding: 0;
 }
 
-.nav-item:hover, .dropdown-menu:hover {
-  background-color: #8bbddd;
+.navbar-collapse {
+  background-color: #236188;
+}
+
+.dropdown-menu:hover,
+.nav-item:hover {
+  background-color: #8bbddd !important;
   color: black;
   transition: .3s ease-in-out;
 }
 
 .dropdown-menu {
-  display: none;
   position: absolute;
   margin-top: 3px;
   background-color: #236188;
@@ -84,50 +158,147 @@ nav {
   border: 0;
   border-radius: 0;
   text-align: center;
-  width:100%;
-}
-.dropdown-item{
-width:100%;
-padding: 0;
+  width: 100%;
 }
 
-.dropdown:hover>.dropdown-menu {
-  display: block;
+@media (min-width: 320px) {
+  .dropdown-menu {
+    display: block;
+    text-align: center;
+  }
+  .dropdown-item {
+    margin-right: 20px;
+  }
+  .navbar-nav {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
+}
+
+@media (min-width: 768px) {
+  #nav-spacing {
+    width: 101.5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .navbar-nav {
+  width: 103%;
+  padding: 0;
+  margin: 0;
+}
+
+  #nav-spacing {
+    width: 105%;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+}
+
+.dropdown-item {
+  width: 20%;
+  padding-right: 20px;
+}
+
+
+
+
+
 
 /* Service Page */
+
 .serviceTitle {
   font-weight: bold;
 }
 
-.table th{
-  border:none;
+.table td {
+
+  border-bottom: 2px solid;
+  border-color: #8bbddd;
 }
 
-.table thead th{
+.table th {
+  border: none;
+}
+
+.table thead th {
   font-size: 10px;
   color: #A98200;
   text-decoration: underline;
   font-family: 'Josefin Slab', serif;
-  border:none;
+  border: none;
 }
 
-.serviceRow{
+.serviceRow {
   margin-bottom: 20px;
 }
+
+.serviceColPrice,
+th {
+  text-align: right;
+  justify-content: right;
+  color: #5a88a4;
+}
+
 .serviceImage {
   height: auto;
   width: auto;
-  margin:1%;
+  margin: 1%;
 }
 
+
+
+
+
+
+/*Contact Page*/
+
+@media (min-width: 320px) {
+  #contact {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  #contact {
+    text-align: left;
+  }
+}
+
+
 #contactBtn {
-  float:right;
+  float: right;
+  background-color: rgb(53, 146, 204);
+  padding: 5px 10px;
+}
+
+form {
+  margin-top: 5%;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 5px;
+}
+
+#gMap {
+  height: 80%;
+  width: 100%;
+  border: none;
 }
 
 footer {
   background-color: #236188;
   text-align: left;
+  vertical-align: text-bottom;
   color: white;
   padding: 1%;
   height: 48px;
@@ -146,11 +317,18 @@ a:link,
 a:active {
   text-decoration: none;
 }
-a{
+
+a:hover {
+  color: #000 !important;
+  background-color: transparent !important;
+}
+
+a {
   color: white !important;
 }
 
-p, td {
+p,
+td {
   font-size: 15px;
   color: #236188;
 }
@@ -160,11 +338,23 @@ h2 {
   font-family: 'Josefin Slab', serif;
 }
 
-h2 {
-  color: #A98200;
-  margin-bottom: 20px;
+h1 {
+  font-size: 55px;
 }
 
+h2 {
+  color: #A98200;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 14px;
+  padding-top: 5px;
+}
 
 h6 {
   font-size: 12px;
@@ -173,7 +363,8 @@ h6 {
 p,
 h4,
 h5,
-h6 {
+h6,
+button {
   line-height: 1.4em;
   font-family: 'Work Sans', sans-serif;
 }

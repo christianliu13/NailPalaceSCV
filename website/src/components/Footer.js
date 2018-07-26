@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => (
 	<div>
 		<footer>
-			<h6>©2018 by Nail Palace</h6>
+			<h5>© 2018 by Nail Palace</h5>
 		</footer>
 	</div>
 );

@@ -16,8 +16,8 @@ function GiftCards () {
 							Gift certificates are non-refundable and only redeemable at Nail Palace Santa Clarita Valley.
 						</p>
 		      </div>
-			    <div className="col-md-4 d-none d-md-block">
-			      <img className="img-fluid" src="http://placekitten.com/g/325/514"/>
+			    <div className="col-md-4">
+			      <img className="img-fluid" src="http://placekitten.com/g/350/600"/>
 			    </div>
 		  	</div>
 	  	</div>
