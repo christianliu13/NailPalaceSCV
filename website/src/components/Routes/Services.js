@@ -427,5 +427,5 @@ class Services extends React.Component {
     );
   }
 }
-console.log(this.state);
+
 export default Services;

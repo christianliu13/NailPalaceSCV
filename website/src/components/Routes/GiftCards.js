@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-function GiftCards (){
+function GiftCards () {
   return(
     <section id="giftCards">
 	    <div className="body">
@@ -14,14 +14,14 @@ function GiftCards (){
 		        <h2>Terms & Conditions</h2>
 		        <p>
 							Gift certificates are non-refundable and only redeemable at Nail Palace Santa Clarita Valley.
-							</p>
+						</p>
 		      </div>
-		    <div className="col-md-4 d-none d-md-block">
-		      <img className="img-fluid" src="http://placekitten.com/g/325/514"/>
-		    </div>
-		  </div>
-	  </div>
-  </section>
+			    <div className="col-md-4 d-none d-md-block">
+			      <img className="img-fluid" src="http://placekitten.com/g/325/514"/>
+			    </div>
+		  	</div>
+	  	</div>
+  	</section>
   );
 }
 

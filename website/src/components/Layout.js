@@ -4,8 +4,6 @@ import Nav from './Nav';
 import Footer from './Footer';
 import Router from './Router';
 
-
-
 export default class Layout extends React.Component {
 	render() {
 		return(
@@ -15,6 +13,6 @@ export default class Layout extends React.Component {
 				<Router />
 				<Footer />
 			</div>
-			);
+		);
 	}
 }

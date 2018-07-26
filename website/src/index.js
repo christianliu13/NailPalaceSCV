@@ -6,7 +6,6 @@ import Layout from './components/Layout';
 
 
 export default class App extends React.Component {
-
   render() {
     return (
         <BrowserRouter>
@@ -15,4 +14,5 @@ export default class App extends React.Component {
     );
   }
 }
+
 ReactDOM.render(<App />, document.getElementById('root'));

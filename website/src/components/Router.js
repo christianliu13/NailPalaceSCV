@@ -7,14 +7,14 @@ import Services from './Routes/Services';
 import GiftCards from './Routes/GiftCards';
 
 const Router = () => (
-   		<Switch>
-            <Route path ="/" exact component ={Home} />
-            <Route path ="/Home" component ={Home} />
-            <Route path ="/About" component ={About} />
-            <Route path ="/Services" component ={Services} />
-            <Route path ="/GiftCards" component ={GiftCards} />
-            <Route path ="/Contact" component ={Contact} />
-          </Switch>
-	);
+  <Switch>
+    <Route path ="/" exact component ={Home} />
+    <Route path ="/Home" component ={Home} />
+    <Route path ="/About" component ={About} />
+    <Route path ="/Services" component ={Services} />
+    <Route path ="/GiftCards" component ={GiftCards} />
+    <Route path ="/Contact" component ={Contact} />
+  </Switch>
+);
 
 export default Router;
