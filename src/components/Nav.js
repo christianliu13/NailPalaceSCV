@@ -22,7 +22,7 @@ export default class Nav extends React.Component {
                 <div className="nav-item dropdown">
                   <Link className="nav-item nav-link" to="/Services">Services</Link>
                   <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <Link className="dropdown-item" to="GiftCards">Gift Cards</Link>
+                    <Link className="dropdown-item" to="/GiftCards">Gift Cards</Link>
                   </div>
                 </div>
               </div>
