@@ -8,8 +8,8 @@ import GiftCards from './Routes/GiftCards';
 
 const Router = () => (
   <Switch>
-    <Route path ="/NailPalaceSCV/Home" exact component ={Home} />
-    <Route path ="/NailPalaceSCV/Home" component ={Home} />
+    <Route path ="/NailPalaceSCV/" exact component ={Home} />
+    <Route path ="/NailPalaceSCV/" component ={Home} />
     <Route path ="/NailPalaceSCV/About" component ={About} />
     <Route path ="/NailPalaceSCV/Services" component ={Services} />
     <Route path ="/NailPalaceSCV/GiftCards" component ={GiftCards} />
