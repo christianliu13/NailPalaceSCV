@@ -13,24 +13,21 @@ export default class Nav extends React.Component {
           <div className="navbar-nav nav-fill">
             <div id="nav-spacing" className="row container-fluid">
               <div className="col-3 navs">
-                <Link to="/Home"><a className="nav-item nav-link" href="#">Home</a></Link>
+                <Link className="nav-item nav-link" to="/">Home</Link>
               </div>
               <div className="col-3 navs">
-                <Link to="/About"><a className="nav-item nav-link" href="#">About</a></Link>
+                <Link className="nav-item nav-link" to="/About">About</Link>
               </div>
               <div className="col-3 navs">
-                <div class="nav-item dropdown">
-                  <Link to="Services"><a class="nav-item nav-link" href="#">
-                    Services
-                    </a>
-                  </Link>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <Link to="GiftCards"><a class="dropdown-item" href="#">Gift Cards</a></Link>
+                <div className="nav-item dropdown">
+                  <Link className="nav-item nav-link" to="/Services">Services</Link>
+                  <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <Link className="dropdown-item" to="GiftCards">Gift Cards</Link>
                   </div>
                 </div>
               </div>
               <div className="col-3 navs">
-                <Link to="/Contact"><a className="nav-item nav-link" href="#">Contact</a></Link>
+                <Link className="nav-item nav-link" to="/Contact">Contact</Link>
               </div>
             </div>
           </div>

@@ -17,11 +17,11 @@ function About() {
             <p>
               We also carry the one and only Contego Spa Designs Patented 100% disposable liners and airjet guaranteeing you safe and quality service.
             </p>
-            <img className="img-fluid" src="http://placekitten.com/g/600/235"/>
+            <img className="img-fluid" src="http://placekitten.com/g/600/235" alt="Contego AirJet is the best"/>
           </div>
 
           <div className="col-md-4 d-none d-md-block">
-            <img className="img-fluid" src="http://placekitten.com/g/325/508"/>
+            <img className="img-fluid" src="http://placekitten.com/g/325/508" alt="Example"/>
           </div>
         </div>
       </div>

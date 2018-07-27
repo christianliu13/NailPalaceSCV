@@ -11,7 +11,7 @@ export default function ServiceSection(props) {
 				<ServiceList service={props.service}/>
 			</div>
 			<div className ="col-md-4">
-				<ServiceImg pic={props.service.img}/>
+				<ServiceImg pic={props.service.img} alt="Example"/>
 			</div>
 		</div>
 	);

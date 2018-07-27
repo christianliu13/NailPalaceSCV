@@ -17,8 +17,8 @@ const ServiceList =(props)=>  {
 						</tr>
 					</thead>
 					<tbody>
-						{props.service.services.map((props)=> {
-			  			return <ServiceTable servicess={props}/>;
+						{props.service.services.map((props, index)=> {
+			  			return <ServiceTable key={index} servicess={props}/>;
 			  		})}
 					</tbody>
 				</table>
@@ -27,8 +27,8 @@ const ServiceList =(props)=>  {
 	} else {
 		return (
 	  	<div>
-		  	{props.service.services.map((props)=> {
-		  		return <ServiceData servicess={props}/>;
+		  	{props.service.services.map((props, index)=> {
+		  		return <ServiceData key={index} servicess={props}/>;
 		  	})}
 	  	</div>
   	);

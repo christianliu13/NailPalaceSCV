@@ -17,7 +17,7 @@ function GiftCards () {
 						</p>
 		      </div>
 			    <div className="col-md-4">
-			      <img className="img-fluid" src="http://placekitten.com/g/350/600"/>
+			      <img className="img-fluid" src="http://placekitten.com/g/350/600" alt="Example"/>
 			    </div>
 		  	</div>
 	  	</div>
