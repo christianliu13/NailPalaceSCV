@@ -36,6 +36,7 @@ section {
 }
 
 
+
 /*home page*/
 
 #hero {
@@ -127,7 +128,9 @@ section {
     text-align: left;
   }
 
-  #hero h1, header h1, #hero-coupon h1{
+  #hero h1,
+  header h1,
+  #hero-coupon h1 {
     font-size: 50px;
   }
 
@@ -135,9 +138,9 @@ section {
     width: 50px;
     padding: 20px;
     height: 170px;
-    margin:2%;
+    margin: 2%;
     position: relative;
-    top:110px;
+    top: 110px;
   }
 
   #hero-coupon h1 {
@@ -160,6 +163,7 @@ section {
     color: white;
   }
 }
+
 
 
 
@@ -228,12 +232,16 @@ nav {
   #nav-spacing {
     width: 101.5%;
   }
-}
-
-@media (min-width: 1024px) {
   .dropdown-menu {
     display: none;
   }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+
 
   .navbar-nav {
     width: 103%;
@@ -244,16 +252,13 @@ nav {
   #nav-spacing {
     width: 105%;
   }
-
-  .dropdown:hover>.dropdown-menu {
-    display: block;
-  }
 }
 
 .dropdown-item {
   width: 20%;
   padding-right: 20px;
 }
+
 
 
 
@@ -310,6 +315,7 @@ th {
 
 
 
+
 /*Contact Page*/
 
 @media (min-width: 320px) {
@@ -346,6 +352,7 @@ form {
   width: 100%;
   border: none;
 }
+
 
 
 /*Other things*/
