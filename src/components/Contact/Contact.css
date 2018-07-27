@@ -1,0 +1,36 @@
+@media (min-width: 320px) {
+  #contact {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  #contact {
+    text-align: left;
+  }
+}
+
+
+#contactBtn {
+  float: right;
+  background-color: rgb(53, 146, 204);
+  padding: 5px 10px;
+}
+
+form {
+  margin-top: 5%;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 5px;
+}
+
+#gMap {
+  height: 80%;
+  width: 100%;
+  border: none;
+}
+
+

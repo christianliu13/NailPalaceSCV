@@ -1,6 +1,7 @@
 import React from 'react';
-import ServiceSection from '../../components/ServiceSection';
-import Pic from '../../components/Images/cat.jpeg';
+import ServiceSection from './ServiceSection';
+import Pic from './Images/cat.jpeg';
+import './Services.css';
 
 
 class Services extends React.Component {

@@ -1,5 +1,6 @@
 import React from 'react';
-import GMap from '../../components/GMap';
+import GMap from './GMap';
+import './Contact.css';
 
 function Contact() {
   return(

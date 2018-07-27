@@ -1,0 +1,118 @@
+#hero {
+  color: #397093;
+  background-color: #ffffffe3;
+}
+
+#hero h1 {
+  line-height: 1em;
+}
+
+#hero-coupon {
+  background-color: #ffffffe3;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: #A98200;
+}
+
+#hero-coupon h4 {
+  font-size: 25px;
+  font-family: 'Josefin Slab', serif !important;
+}
+
+#hero-background {
+  background-image: url("http://placekitten.com/940/540");
+  background-size: cover;
+  width: 100%;
+}
+
+#hero button {
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 5px 33px;
+}
+
+@media (min-width: 320px) {
+  #hero-background {
+    height: auto;
+  }
+
+  #hero {
+    width: 100%;
+    text-align: center;
+    margin: 7%;
+    padding: 5%;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero-coupon {
+    width: 100%;
+    margin: 1% 7%;
+    padding: 4%;
+  }
+
+  #hero-coupon h1 {
+    font-size: 30px;
+  }
+
+  #hero-coupon h4 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 570px) {
+  #hero,
+  #hero-coupon {
+    margin: 2% 10%;
+    max-width: 80%;
+  }
+
+  #hero {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero-background {
+    justify-content: left;
+    height: 550px;
+  }
+
+  #hero {
+    padding: 3% 2%;
+    width: 90%;
+    margin: 3% 0% 3% 3%;
+    text-align: left;
+  }
+
+  #hero h1,
+  header h1,
+  #hero-coupon h1 {
+    font-size: 50px;
+  }
+
+  #hero-coupon {
+    width: 50px;
+    padding: 20px;
+    height: 170px;
+    margin: 2%;
+    position: relative;
+    top: 110px;
+  }
+
+  #hero-coupon h1 {
+    font-size: 70px;
+    margin-bottom: -5px;
+  }
+
+  #hero-coupon h4 {
+    font-size: 25px;
+  }
+
+  #hero-coupon sup {
+    font-size: 30px;
+    vertical-align: super;
+  }
+}

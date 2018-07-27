@@ -1,0 +1,38 @@
+.serviceTitle {
+  font-weight: bold;
+}
+
+.table td {
+
+  border-bottom: 2px solid;
+  border-color: #8bbddd;
+}
+
+.table th {
+  border: none;
+}
+
+.table thead th {
+  font-size: 10px;
+  color: #A98200;
+  text-decoration: underline;
+  font-family: 'Josefin Slab', serif;
+  border: none;
+}
+
+.serviceRow {
+  margin-bottom: 20px;
+}
+
+.serviceColPrice,
+th {
+  text-align: right;
+  justify-content: right;
+  color: #5a88a4;
+}
+
+.serviceImage {
+  height: auto;
+  width: auto;
+  margin: 1%;
+}

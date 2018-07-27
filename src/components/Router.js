@@ -1,10 +1,10 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from './Routes/Home';
-import Contact from './Routes/Contact';
-import About from './Routes/About';
-import Services from './Routes/Services';
-import GiftCards from './Routes/GiftCards';
+import Home from './Home/Home';
+import Contact from './Contact/Contact';
+import About from './About/About';
+import Services from './Services/Services';
+import GiftCards from './GiftCards/GiftCards';
 
 const Router = () => (
   <Switch>
