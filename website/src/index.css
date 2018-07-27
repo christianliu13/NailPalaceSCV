@@ -12,8 +12,6 @@ body {
   z-index: -2;
 }
 
-
-
 header h1 {
   font-size: 50px;
 }
@@ -25,7 +23,21 @@ section {
   margin-top: 15px;
 }
 
+@media (min-width: 320px) {
+  header {
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+    color: white;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+}
+
+
 /*home page*/
+
 #hero {
   color: #397093;
   background-color: #ffffffe3;
@@ -42,18 +54,15 @@ section {
   color: #A98200;
 }
 
-
 #hero-coupon h4 {
   font-size: 25px;
   font-family: 'Josefin Slab', serif !important;
 }
 
-
 #hero-background {
   background-image: url("http://placekitten.com/940/540");
   background-size: cover;
   width: 100%;
-  height: 577px;
 }
 
 #hero button {
@@ -63,57 +72,96 @@ section {
 }
 
 @media (min-width: 320px) {
- header {
-  text-align: center;
-  margin: 50px 0px 20px 0px;
-  color: white;
+  #hero-background {
+    height: auto;
+  }
+
+  #hero {
+    width: 100%;
+    text-align: center;
+    margin: 7%;
+    padding: 5%;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero-coupon {
+    width: 100%;
+    margin: 1% 7%;
+    padding: 4%;
+  }
+
+  #hero-coupon h1 {
+    font-size: 30px;
+  }
+
+  #hero-coupon h4 {
+    font-size: 20px;
+  }
 }
 
-header h1{
-  font-size:40px;
-}
-}
+@media (min-width: 570px) {
+  #hero,
+  #hero-coupon {
+    margin: 2% 10%;
+    max-width: 80%;
+  }
 
-@media (min-width: 768px) {
- 
+  #hero {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1024px) {
-  #hero{
- padding: 3% 2%;
-  width: 90%;
-  margin: 3%;
+  #hero-background {
+    justify-content: left;
+    height: 550px;
+  }
+
+  #hero {
+    padding: 3% 2%;
+    width: 90%;
+    margin: 3% 0% 3% 3%;
+    text-align: left;
+  }
+
+  #hero h1, header h1, #hero-coupon h1{
+    font-size: 50px;
+  }
+
+  #hero-coupon {
+    width: 50px;
+    padding: 20px;
+    height: 170px;
+    margin:2%;
+    position: relative;
+    top:110px;
+  }
+
+  #hero-coupon h1 {
+    font-size: 70px;
+    margin-bottom: -5px;
+  }
+
+  #hero-coupon h4 {
+    font-size: 25px;
+  }
+
+  #hero-coupon sup {
+    font-size: 30px;
+    vertical-align: super;
+  }
+
+  header {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    color: white;
+  }
 }
 
-#hero-coupon{
-  width: 50px;
-  padding: 20px;
-  height: 170px;
-  position: relative;
-  top: 130px;
-}
 
-#hero-coupon h1 {
-  font-size: 70px;
-  margin-bottom: -5px;
-}
-
-#hero-coupon h4 {
-  font-size: 25px;
-}
-
-#hero-coupon sup {
-  font-size: 30px;
-  vertical-align: super;
-}
-
-header {
-  text-align: center;
-  margin: 30px 0px 30px 0px;
-  color: white;
-}
-
-}
 
 
 
@@ -170,10 +218,10 @@ nav {
     margin-right: 20px;
   }
   .navbar-nav {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -186,12 +234,12 @@ nav {
   .dropdown-menu {
     display: none;
   }
-  
+
   .navbar-nav {
-  width: 103%;
-  padding: 0;
-  margin: 0;
-}
+    width: 103%;
+    padding: 0;
+    margin: 0;
+  }
 
   #nav-spacing {
     width: 105%;
@@ -206,6 +254,8 @@ nav {
   width: 20%;
   padding-right: 20px;
 }
+
+
 
 
 
@@ -258,6 +308,8 @@ th {
 
 
 
+
+
 /*Contact Page*/
 
 @media (min-width: 320px) {
@@ -294,6 +346,9 @@ form {
   width: 100%;
   border: none;
 }
+
+
+/*Other things*/
 
 footer {
   background-color: #236188;
