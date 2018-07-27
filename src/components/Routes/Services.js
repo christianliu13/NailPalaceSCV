@@ -264,69 +264,6 @@ class Services extends React.Component {
           }
         ]
       },
-      Waxing: {
-        isTable: true,
-        category: "Waxing",
-        priceHeading1: null,
-        priceHeading2: null,
-        img: Pic,
-        services: [{
-            title: "Eye Brows",
-            price1: null,
-            price2: "$15"
-          },
-          {
-            title: "Lip",
-            price1: null,
-            price2: "$10"
-          },
-          {
-            title: "Chin",
-            price1: null,
-            price2: "$15"
-          },
-          {
-            title: "Full Leg",
-            price1: null,
-            price2: "$55"
-          },
-          {
-            title: "Half Leg",
-            price1: null,
-            price2: "$35"
-          },
-          {
-            title: "Full Arm",
-            price1: null,
-            price2: "$40 up"
-          },
-          {
-            title: "Half Arm",
-            price1: null,
-            price2: "$28 up"
-          },
-          {
-            title: "Full Face",
-            price1: null,
-            price2: "$45"
-          },
-          {
-            title: "Under Arm",
-            price1: null,
-            price2: "$15"
-          },
-          {
-            title: "Bikini",
-            price1: null,
-            price2: "$30 up"
-          },
-          {
-            title: "Back",
-            price1: null,
-            price2: "$35 up"
-          }
-        ]
-      },
       skinCare: {
         isTable: false,
         category: "Skin Care",
