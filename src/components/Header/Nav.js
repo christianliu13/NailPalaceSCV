@@ -13,13 +13,13 @@ export default class Nav extends React.Component {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav nav-fill">
             <div id="nav-spacing" className="row container-fluid">
-              <div className="col-3 navs">
+              <div className="col-lg-3 col-sm-12 navs">
                 <Link className="nav-item nav-link" to="/NailPalaceSCV/">Home</Link>
               </div>
-              <div className="col-3 navs">
+              <div className="col-lg-3 col-sm-12 navs">
                 <Link className="nav-item nav-link" to="/NailPalaceSCV/About">About</Link>
               </div>
-              <div className="col-3 navs">
+              <div className="col-lg-3 col-sm-12 navs">
                 <div className="nav-item dropdown">
                   <Link className="nav-item nav-link" to="/NailPalaceSCV/Services">Services</Link>
                   <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -27,7 +27,7 @@ export default class Nav extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-3 navs">
+              <div className="col-lg-3 col-sm-12 navs">
                 <Link className="nav-item nav-link" to="/NailPalaceSCV/Contact">Contact</Link>
               </div>
             </div>
